@@ -1,0 +1,34 @@
+# Core LLM (Gemini)
+google-genai==1.45.0
+
+# Agent Orchestration + Tools
+langchain==0.3.10                # LangChain main package
+langchain-community==0.3.2
+langchainhub==0.1.20
+
+# Vector Store + Embeddings
+faiss-cpu==1.8.0
+sentence-transformers==3.0.1
+
+# Memory & Context Management
+chromadb==0.5.3
+redis==5.0.4
+
+# Web Search / API Calls
+requests==2.32.3
+beautifulsoup4==4.12.3
+
+# Async + Task Orchestration
+aiohttp==3.9.5
+
+# Backend (for API or orchestration dashboard)
+fastapi==0.115.0
+uvicorn==0.30.6
+
+# Logging, Utils & File Ops
+python-dotenv==1.0.1
+pydantic==2.8.2
+tqdm==4.66.5
+
+# Optional (if you want to visualize workflows)
+streamlit==1.38.0
